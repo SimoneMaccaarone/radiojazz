@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Patua+One&display=swap');
+
 html body{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-*{
+
+/* *{
     border-radius: 20px;
-}
+} */
 /* //////////HEADER//////////// */
 
 
@@ -18,7 +23,7 @@ html body{
 }
 .container-header{
 
-    border: 2px solid rgb(225, 0, 255);
+    /* border: 2px solid rgb(225, 0, 255); */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -26,7 +31,7 @@ html body{
 }
 .container-pippo{
 
-    border: 2px solid rgb(59, 177, 228);
+    /* border: 2px solid rgb(59, 177, 228); */
     display: flex;
     height: 100vh;
     width: 50vw;
@@ -37,29 +42,33 @@ html body{
 }
 
 .div-logo{
-    border: 2px solid rgb(255, 102, 0);
+    /* border: 2px solid rgb(255, 102, 0); */
 
     display: flex;
     padding-left: 20px; 
     padding-top: 20px;
-
+    width: 100%;
 
 }
 .div-player{
-    border: 2px solid rgb(0, 255, 0);
+    /* border: 2px solid rgb(0, 255, 0); */
+    padding-bottom: 50px;
 }
 .info{
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
     display: flex;
     flex-direction: column;
     align-self: flex-end;
     padding-left: 20px; 
     padding-top: 20px;
+    /* font-family:'PT Sans', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+
 }
 
 
 .div-play{
-    border: 5px solid rgb(0, 00, 255);
+    /* border: 5px solid rgb(0, 00, 255); */
 
     display: flex;
     justify-content: center;
@@ -78,6 +87,10 @@ html body{
     width: 100%}
 
 
+
+
+
+
 .section-pecora-lista{
     background-color:#0099ff ;
 }
@@ -87,41 +100,66 @@ html body{
 }
 
 .container-pecora{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-grow: 1;
     justify-content: center;
 
 }
+.pecora{
+    /* padding-top: 100px; */
+    padding-bottom: 100px;
+
+}
+
+img.sticky {
+    padding-top: 100px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/* ----------------------------------------------- */
 .container-lista{
-    border: 1px solid black;
-    display: flex;
-    flex-grow: 1;
+    /* border:1px solid black; */
+    display:flex;
+    flex-grow:1;
     flex-direction: column;
-    /* align-items: center; */
+    color:white;
 }
 
 .titolo-lista{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-grow: 1;
     padding: 20px;
-    
-    
+    font-family:'PT Sans', sans-serif;
+    font-size: 75px;
 }
 
 .lista{
-    border: 1px solid black;
-    flex-grow: 3;
+    /* border: 1px solid black; */
+    flex-grow: 5;
+    font-family: 'PT Sans', sans-serif;
+    
 }
 
 .nomi{ 
     border-bottom: 1px solid rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
     padding: 20px;
 }
 
+.col-bk-dito{
+    background-color: #660099;
+}
+.col-bk-piano{
+    background-color: #ffcc00;
+}
 
 
 
